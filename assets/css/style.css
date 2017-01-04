@@ -1,0 +1,83 @@
+@font-face {
+    src: url(../fonts/UbuntuCondensed-Regular.ttf);
+    font-family: 'Ubuntu Condensed';
+}
+
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    background-color: #2fade6;
+    border-color: #2fade6;
+}
+
+.navbar-inverse {
+    background-color: #2fade6;
+    border-color: #2fade6;
+}
+
+h2.navbar-title {
+    color: #fff;    
+    font-family: 'Ubuntu Condensed';
+
+}   
+
+h1-login {
+    font-family: 'Ubuntu Condensed';
+}
+
+body {
+    background-color: #fff;
+    color: #2fade6;
+}
+
+.titulo-intro {
+    font-size: 36px;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+body {
+    padding-top: 70px; 
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; 
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+.modal-footer {   border-top: 0px; }
